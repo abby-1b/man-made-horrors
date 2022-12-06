@@ -1,5 +1,10 @@
 
 class TestClass
 	public static void main(String[] args)
-		System.out.println("Oh no. This is terrible. Kill me.");
-
+		String[] strs = {
+			"Str1",
+			"Str2",
+			"Str3"
+		}
+		for (int a = 0; a < strs.length; a++)
+			System.out.println(strs[a])
